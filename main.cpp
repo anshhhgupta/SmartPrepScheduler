@@ -107,7 +107,7 @@ void displaySubjects(const vector<Subject>& subjects) {
 
 void printMenu() {
     cout << "\n=========================================\n";
-    cout << "           SmartPrep Optimizer CLI        \n";
+    cout << "          SmartPrep Optimizer CLI        \n";
     cout << "=========================================\n";
     cout << "1. Add Subjects (Input Module)\n";
     cout << "2. Validate Prerequisites & Order (Graph)\n";
