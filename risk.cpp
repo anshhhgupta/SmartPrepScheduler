@@ -27,7 +27,7 @@ void RiskDetector::printRiskReport(const vector<Subject>& subjects, int dailyStu
                  << setw(15) << 0 
                  << setw(15) << s.examDeadline 
                  << setw(18) << "0.00"
-                 << "🟢 COMPLETED\n";
+                 << "COMPLETED\n";
             continue;
         }
 
@@ -39,7 +39,7 @@ void RiskDetector::printRiskReport(const vector<Subject>& subjects, int dailyStu
                  << setw(15) << remHours 
                  << setw(15) << availableDays 
                  << setw(18) << "N/A"
-                 << "🔴 FAILED (Missed Deadline)\n";
+                 << "FAILED (Missed Deadline)\n";
             continue;
         }
 
@@ -49,11 +49,11 @@ void RiskDetector::printRiskReport(const vector<Subject>& subjects, int dailyStu
         
         string riskLevel;
         if (remHours > maxPossibleHours) {
-            riskLevel = "🔴 HIGH RISK";
+            riskLevel = "HIGH RISK";
         } else if (remHours > 0.75 * maxPossibleHours) {
-            riskLevel = "🟡 MEDIUM RISK";
+            riskLevel = "MEDIUM RISK";
         } else {
-            riskLevel = "🟢 ON TRACK";
+            riskLevel = "ON TRACK";
         }
 
         cout << left << setw(20) << nameTrunc
