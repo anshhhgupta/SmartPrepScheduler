@@ -58,6 +58,9 @@ After compilation, launch your unified menu CLI:
 | Name | ID / Role | GitHub |
 | :--- | :--- | :--- |
 | Ansh Gupta | Core Developer / Lead Designer | [@anshhhgupta](https://github.com/anshhhgupta) |
+| Abhinav Gaur | Algorithm designer | [@anshhhgupta](https://github.com/anshhhgupta) |
+| Vinayak Rawat | Algorithm Analyzer / Integrator | [@anshhhgupta](https://github.com/anshhhgupta) |
+| Ansh Gupta | Algorithm Analyzer / Integrator | [@anshhhgupta](https://github.com/anshhhgupta) |
 
 ## Known Limitations and Future Improvements
 
